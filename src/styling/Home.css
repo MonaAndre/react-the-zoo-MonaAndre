@@ -8,24 +8,24 @@
     background-size: cover;
     text-align: center;
     color: #fff;
-  }
-  
-  .home-header h1 {
+}
+
+.home-header h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
-  }
-  
-  .home-content {
+}
+
+.home-content {
     background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
-  }
-  
-  .home-content p {
+}
+
+.home-content p {
     font-size: 1.2em;
     margin-bottom: 1em;
-  }
-  
-  .fun-facts {
+}
+
+.fun-facts {
     margin-top: 20px;
-  }
+}

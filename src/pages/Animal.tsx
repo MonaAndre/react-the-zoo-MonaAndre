@@ -1,10 +1,9 @@
 import { useParams } from "react-router-dom";
-import { IAnimal} from "../models/IAnimal";
+import { IAnimal } from "../models/IAnimal";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Spinner } from "../components/Spinner";
 import { ShowAnimalsDetails } from "../components/ShowAnimalsDetails";
-
 
 export const Animal = () => {
   const { animalid } = useParams<{ animalid: string }>();

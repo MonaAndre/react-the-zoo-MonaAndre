@@ -18,7 +18,7 @@ export const Layout = () => {
             </nav>
         </header>
         <main>
-            <Outlet/>
+            <Outlet />
         </main>
         <footer>
             Djurparken

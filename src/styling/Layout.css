@@ -5,16 +5,16 @@
     gap: 30px;
     justify-content: end;
     padding: 10px;
-  }
-  
-  footer {
+}
+
+footer {
     padding: 10px;
     position: absolute;
     bottom: 0;
-  }
-  
-  
-  .active {
+}
+
+
+.active {
     color: #3943f8;
     text-decoration: underline;
-  }
+}

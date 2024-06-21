@@ -1,7 +1,7 @@
-.animal-card{
-    width: 28%;
-    min-width: 250px;
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 10px;
-  }
+.animal-card {
+  width: 28%;
+  min-width: 250px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+}

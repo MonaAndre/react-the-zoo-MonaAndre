@@ -13,12 +13,11 @@ export const ShowAnimals = ({ animals }: IShowAnimalsProps) => {
 
   return (
     <>
-    <div className="animals-container">
-      {animals.map((animal) => (
-        <ShowAnimal key={animal.id} animal={animal} />
-      ))}
+      <div className="animals-container">
+        {animals.map((animal) => (
+          <ShowAnimal key={animal.id} animal={animal} />
+        ))}
       </div>
-      
     </>
   );
 };

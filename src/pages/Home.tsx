@@ -1,12 +1,12 @@
 import "../styling/Home.css"
-export const Home = ()=> {
+export const Home = () => {
 
-    return <>
+  return <>
     <div className="home-page">
-     
-    <h1>Välkommen till djurparken!</h1>
-     
-    <section className="home-content">
+
+      <h1>Välkommen till djurparken!</h1>
+
+      <section className="home-content">
         <p>Utforska våra djur i den roliga zoo app. Upptäck fascinerande djur, lär dig intressanta fakta och ta hand om de genom att mata djur!</p>
         <div className="fun-facts">
           <h2>Visste du att?</h2>
@@ -19,7 +19,6 @@ export const Home = ()=> {
         </div>
       </section>
     </div>
-    </>
-
+  </>
 }
 
