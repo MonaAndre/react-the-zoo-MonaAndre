@@ -46,7 +46,7 @@ export const ShowAnimalsDetails = ({ animal }: IShowAnimalDetailsProps) => {
 
   return (
     <>
-      <Link to={"/animals"}>Tillbaka</Link>
+      <Link to={"/react-the-zoo-MonaAndre/animals"}>Tillbaka</Link>
       <div className="animal-details-card">
         <h3>{animal.name}</h3>
         <img className="img" src={animal.imageUrl} alt={animal.name} />

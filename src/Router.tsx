@@ -10,20 +10,20 @@ import { Animal } from "./pages/Animal";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-the-zoo-MonaAndre/",
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: "/react-the-zoo-MonaAndre/",
         element: <Home />,
       },
       {
-        path: "/animals",
+        path: "/react-the-zoo-MonaAndre/animals",
         element: <Animals />,
         loader: animalsLoader,
       },
       {
-        path: "/animal/:animalid",
+        path: "/react-the-zoo-MonaAndre/animal/:animalid",
         element: (
           <Suspense fallback={<Spinner />}>
             <Animal />

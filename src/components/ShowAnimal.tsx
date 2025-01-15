@@ -39,7 +39,7 @@ export const ShowAnimal = ({ animal }: IShowAnimalProps) => {
   }, [animal.id]);
 
   const handleClick = () => {
-    navigate("/animal/" + animal.id);
+    navigate("/react-the-zoo-MonaAndre/animal/" + animal.id);
   };
 
   return (

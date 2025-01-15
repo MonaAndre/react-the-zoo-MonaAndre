@@ -8,10 +8,10 @@ export const Layout = () => {
             <nav>
                 <ul className="menu-list">
                     <li className="menu-list__item">
-                        <NavLink to={"/"}>Hem</NavLink>
+                        <NavLink to={"/react-the-zoo-MonaAndre/"}>Hem</NavLink>
                     </li>
                     <li className="menu-list__item">
-                        <NavLink to={"/animals"}>Djur</NavLink>
+                        <NavLink to={"/react-the-zoo-MonaAndre/animals"}>Djur</NavLink>
                     </li>
 
                 </ul>
